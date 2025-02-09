@@ -102,7 +102,7 @@ with col1:
                         header = headers[i] if i < len(headers) else ""
 
                         # Check if the column header is "Image" or "Website"
-                        if header in ["Image", "Website"]:
+                        if header in ["Image","Photo", "Website"]:
                             a_tag = col.find('a')
                             href = (a_tag['href'].strip() if a_tag and a_tag.has_attr('href') else '')
                             if header == 'Image' and href:
