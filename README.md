@@ -19,6 +19,10 @@ The Wikipedia Tabular Data Scraper - Module 1 repository provides a Python-based
 - No need to run locally. As it is live available for anyone.
 - Live Link: https://wikipediatabulardatam1.streamlit.app/
 
+## Documentation
+feel free to go through below link for docs:
+- https://docs.google.com/document/d/1kuoeFyeuknALGBJYXNImkSEoVQ1dh-btPtm8R2J27zM/edit?usp=sharing
+
 ## Conclusion
 The Wikipedia Tabular Data Scraper - Module 1 is a powerful tool for extracting and converting Wikipedia's tabular data into CSV format, facilitating easy data analysis and integration into other projects. Whether you are a researcher, data analyst, or developer, this module will save you time and effort in obtaining structured data from Wikipedia.
 
