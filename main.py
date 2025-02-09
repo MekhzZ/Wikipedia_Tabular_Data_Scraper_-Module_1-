@@ -5,8 +5,6 @@ import requests # to get URL request as save the html file
 from bs4 import BeautifulSoup # use for scraping static html
 import pandas as pd # as we all know for DataFrame
 import io # makes download ezpz
-import psycopg2 # postgresql connection 
-import re # for text modification
 
 # setting the streamlit page orientation
 st.set_page_config(page_title="Wikipedia Tabular Data Scraper",
