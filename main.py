@@ -39,8 +39,12 @@ if "tables" not in st.session_state:
 
 # creates the functions to fetch tables from url that returns tables and table_headings
 def fetch_tables(url):
-    page = requests.get(url)
-    soup = BeautifulSoup(page.text, 'html.parser') # using BeautifulSoup aahaa
+    headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+}
+    page = requests.get(url, headers=headers)
+    print(page.status_code) 
+    soup = BeautifulSoup(page.content, 'html.parser') # using BeautifulSoup aahaa
 
     # finds all tables who have a class wikitable 
     # simply code extracts the table : class : names and within names search for wikitable which allows us to get into every tables

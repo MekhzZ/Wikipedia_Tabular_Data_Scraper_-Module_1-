@@ -6,6 +6,7 @@ The Wikipedia Tabular Data Scraper - Module 1 repository provides a Python-based
 
 - Extracts tabular data from Wikipedia pages provided as url by users.
 - Saves the extracted data as CSV files.
+- User agent in requests to respect wikipedia scraping policy.
 
 ## Requirements
 
